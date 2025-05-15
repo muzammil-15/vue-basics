@@ -15,11 +15,6 @@ var links = ["home", "about", "contact", "profile"]
 
         <p v-for="(x, i) in links">{{ i + ":" + x }}</p>
 
-
-
-
-
-
     </div>
 
 </template>
