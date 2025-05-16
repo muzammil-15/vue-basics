@@ -12,6 +12,9 @@ var links = ["home", "about", "contact", "profile"]
         <h1>Welcome back {{ name }}</h1>
         <p v-if="age < 18">he cannot vote</p>
         <p v-if="age >= 18">he can vote</p>
+        <p v-if="age >= 18">he can vote</p>
+        <p v-if="age >= 18">he can vote</p>
+        <p v-if="age >= 18">he can vote</p>
 
         <p v-for="(x, i) in links">{{ i + ":" + x }}</p>
 
